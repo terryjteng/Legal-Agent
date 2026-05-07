@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 
-const PROXY_URL = 'http://localhost:3001/api/legal-review'
+const PROXY_URL = '/api/legal-review'
 const HISTORY_KEY = 'k8-legal-history'
 
 const SYSTEM_PROMPT = `You are a legal review AI assistant for Kato.8 Studios, an indie game studio based in Mission Hills, CA.
